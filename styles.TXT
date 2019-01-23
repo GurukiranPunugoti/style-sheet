@@ -1,0 +1,77 @@
+<html>
+
+  <head>
+
+   <title>graphics</title>
+	
+    <style>
+   
+     .main-box{
+ 	    width:100%;
+            height:300px;
+           /*background:rgb(125,125,125,0.3);*/
+           /*background:hsla(120,50%,30%,0.6);*/
+            background-image:linear-gradient(red,green);  	      }
+			 
+	.transform{
+                  width:400px;
+                  height:300px;
+		  margin-top:10px;
+                  background-color:green;
+		  overflow:hidden;
+		  float:left;
+		  text-align:center;
+	          background-image:radial-gradient                  (red,blue,green);
+	          }
+		
+	.box{
+            width:400px;
+            height:300px;
+            background-color:yellow;	 
+            float:left;	  
+	         margin-left:30px;
+	         margin-top:10px;
+            transform:rotate(300deg);
+	    }	
+        		
+			     
+	.box2{
+             width:400px;
+             height:300px;
+             background-color:yellow;	 
+             float:left;	  
+	     margin-left:30px;
+	     margin-top:10px;
+	     }	
+
+       .box3{
+            width:400px;
+            height:300px;
+            background-color:yellow;	 
+            float:left;	  
+	    margin-left:30px;
+	    margin-top:10px;
+            }		   
+
+    </style>
+    
+  </head>
+  
+   <body>
+
+      <div class="main-box">
+      </div>
+	
+      <div class="transform">
+       	 <p>SP Calibration Labs is a well established             name in the market for offering world class             services to its huge clientele in the field             of mechanical calibration,thermal calibration             and electro technical calibration.</p>
+      </div>
+	 
+	 <div class="box"></div>
+	 
+	 <div class="box2"></div>
+	 
+	 <div class="box3"></div>
+   </body>
+  
+
+</html>
