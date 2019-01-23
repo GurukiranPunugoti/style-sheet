@@ -11,7 +11,8 @@
             height:300px;
            /*background:rgb(125,125,125,0.3);*/
            /*background:hsla(120,50%,30%,0.6);*/
-            background-image:linear-gradient(red,green);  	      }
+            background-image:linear-gradient(red,green);  	     
+	    }
 			 
 	.transform{
                   width:400px;
@@ -21,7 +22,7 @@
 		  overflow:hidden;
 		  float:left;
 		  text-align:center;
-	          background-image:radial-gradient                  (red,blue,green);
+	          background-image:radial-gradient(red,blue,green);
 	          }
 		
 	.box{
@@ -63,7 +64,8 @@
       </div>
 	
       <div class="transform">
-       	 <p>SP Calibration Labs is a well established             name in the market for offering world class             services to its huge clientele in the field             of mechanical calibration,thermal calibration             and electro technical calibration.</p>
+       	 <p>SP Calibration Labs is a well established name in the market for offering world class services to its huge clientele in the field of mechanical calibration,thermal calibration and electro technical calibration.</p>
+     
       </div>
 	 
 	 <div class="box"></div>
